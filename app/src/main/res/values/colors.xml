@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary"> #2c3e50 </color>
+    <color name="colorPrimaryDark"> #2c3e50 </color>
+    <color name="colorAccent"> #273746 </color>
+
+
+
+    <color name="background_footer">#90000000</color>
+    <color name="colortxtFooter">#3B2415</color>
+    <color name="background_footerPrimary">#90313133</color>
+    <color name="background_toolbar">#7F000000</color>
+
+
+    <color name="colosfondoSplash">#EC1C24</color>
+
+
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+
+
+    <color name="chart_value_1">#ff5151</color>
+    <color name="chart_value_2">#fcff51</color>
+    <color name="chart_value_3">#ffa936</color>
+    <color name="chart_value_4">#1abc9c</color>
+
+    <color name="chart_value_2_2">#f1c40f</color>
+
+
+</resources>

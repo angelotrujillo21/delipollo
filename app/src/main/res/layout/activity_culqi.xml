@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.21"
+        android:background="#1abc9c"
+        android:drawableTop="@drawable/culqi_logo"
+        android:gravity="center_vertical"
+        android:text=" "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+
+        />
+
+    <com.example.consultores.delipollo.CreditCardEditText
+        android:id="@+id/txt_numero_tarjeta"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:digits="01234 56789"
+        android:hint="Número de tarjeta"
+        android:inputType="number"
+        android:maxLength="19" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <EditText
+        android:id="@+id/txt_mes"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0.07"
+        android:hint="Mes"
+        android:inputType="number"
+        android:maxLength="2" />
+
+    <EditText
+        android:id="@+id/txt_axo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0.07"
+        android:hint="Año"
+        android:inputType="number"
+        android:maxLength="4" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txt_clave"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="CVV"
+        android:inputType="textEmailAddress|number"
+        android:maxLength="3" />
+
+    <EditText
+        android:id="@+id/txt_correo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress" />
+
+    <ProgressBar
+        android:id="@+id/progreso_culqi"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_culqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1abc9c"
+        android:text="PAGAR "
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txt_label_procesando"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:gravity="center_horizontal"
+        android:text="PROCESANDO PAGO ..."
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ff241e"
+        android:text="SALIR"
+        android:textColor="#fff" />
+</LinearLayout>

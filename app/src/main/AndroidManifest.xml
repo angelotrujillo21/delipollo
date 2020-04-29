@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.consultores.delipollo">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:configChanges=
+        "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        android:theme="@style/AppTheme"
+        >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+
+
+
+        <activity android:name=".splash" android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+
+                    />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".login">
+
+        </activity>
+
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".categorias"
+            android:label="CATEGORIAS">
+
+        </activity>
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".platillos"
+            android:label="PLATILLOS">
+
+        </activity>
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".compra"
+            android:theme="@style/compra"
+           >
+
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".pagos"
+            android:label="PAGOS">
+
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".registro"
+            android:label="REGISTRO">
+
+        </activity>
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".loginUser"
+            android:label="LOGIN">
+
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".carrito"
+            android:label="MI ORDEN">
+
+        </activity>
+
+        <activity
+            android:name=".user"
+            android:label="MI CUENTA"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".moduloTarjeta"
+            android:label="PAGO ONLINE"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".moduloFacturacion"
+            android:label="FACTURACION"
+            android:windowSoftInputMode="stateHidden"
+            >
+
+        </activity>
+
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".historial"
+            android:label="HISTORIAL"
+            android:windowSoftInputMode="stateHidden"
+            >
+
+        </activity>
+
+
+    </application>
+
+</manifest>

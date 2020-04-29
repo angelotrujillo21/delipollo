@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".categorias"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listaRecicle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:adjustViewBounds="true"
+        android:clipToPadding="false">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/btn_pagar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REALIZAR PAGOS"
+                android:background="#c0392b"
+                android:onClick="Pagar"
+                android:textColor="@android:color/white"
+                />
+
+
+
+        <android.support.design.widget.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemBackground="@color/colorPrimary"
+                app:itemIconTint="@drawable/selector"
+                app:itemTextColor="@drawable/selector"
+                app:menu="@menu/navigation_bottom" />
+
+        </LinearLayout>
+</RelativeLayout>

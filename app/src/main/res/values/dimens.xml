@@ -1,0 +1,100 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="espacio_norma_1">16dp</dimen>
+    <dimen name="espacio_norma_2">8dp</dimen>
+
+    <dimen name="padding_izquierdo_cabecera">16dp</dimen>
+
+    <dimen name="altura_miniatura_comida">250dp</dimen>
+
+
+    <dimen name="ancho_logo">200dp</dimen>
+    <dimen name="padding_login">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="pie_chart_text1_size">42sp</dimen>
+    <dimen name="pie_chart_text2_size">16dp</dimen>
+    
+     <!--DIMENCIONES DEL LOgin -->
+    <dimen name="padding_txt_mensaje">5dp</dimen>
+    <dimen name="margintop_txt_mensaje">0dp</dimen>
+    <dimen name="textsize_txt_mensaje">45sp</dimen>
+    <dimen name="textsize_txt_subMensaje">15sp</dimen>
+    <dimen name="paddingContenedorImagen">0dp</dimen>
+    <dimen name="txtsize_txt_footer">12sp</dimen>
+    <dimen name="marginTop_linearContenedor">-5dp</dimen>
+    <dimen name="widthLayoutPrincipal">210dp</dimen>
+    <dimen name="textSizeEditextPrincipal">20sp</dimen>
+    <dimen name="textSizeButtonPrincipal">15sp</dimen>
+    <dimen name="paddingEditextPrincipal">12dp</dimen>
+    <dimen name="padddingBtnLogin">12dp</dimen>
+    <dimen name="anchoLogo">310dp</dimen>
+    <dimen name="paddingTopTituloOsole">6dp</dimen>
+    <dimen name="paddinTopContenedorPrincipal">30dp</dimen>
+
+
+
+     <!--realizar PEDIDO -->
+    <dimen name="textsizeTituloPlatillo">25sp</dimen>
+    <dimen name="textsizeNumeroDePlatos">15sp</dimen>
+    <dimen name="textsizeObservaciones">14sp</dimen>
+    <dimen name="textsizeBtnAgregarPlatillo">11sp</dimen>
+    <dimen name="textsizeCategoria">14sp</dimen>
+    <dimen name="textsizeEscribirUnaObservacion">18sp</dimen>
+
+
+    <!--DIMENSIONES DEL ITEM-LO MAS PEDIDO -->
+    <dimen name="marginBottomPrecio">32dp</dimen>
+    <dimen name="textSizeCategoria">20sp</dimen>
+
+
+    <!--DIMNESIONES ITEM-LISTA-CATEOGORIAS -->
+    <dimen name="textsizeCategoria_ListaCate">14sp</dimen>
+
+
+    <!--DIMENSIONES LISTA DE MENSAS -->
+    <dimen name="textSizenomMozo">12sp</dimen>
+
+
+    <!--DIMENSIONES SELECT_MESA_PRINCIPAL-->
+    <dimen name="textSizetitle">15sp</dimen>
+    <dimen name="textsizeNombreMozo">14sp</dimen>
+
+
+
+    <!--SELECCIONAR MESA -->
+
+    <dimen name="textsize_numeroMesa">20sp</dimen>
+    <dimen name="textsize_estadoMesa">20sp</dimen>
+
+    <!--MESA PRELIQUIDACION -->
+    <dimen name="textsizeTextBtnImprimir">8sp</dimen>
+    <dimen name="widthBtnDismis">50dp</dimen>
+    <dimen name="paddingTitulo">8dp</dimen>
+
+    <!-- BARRA LATERAL -->
+    <dimen name="widthBarraLateral">290dp</dimen>
+    <dimen name="textsize_seccion">15sp</dimen>
+    <dimen name="widthHeightEstadoSeccion">20dp</dimen>
+    <dimen name="heightHeader">170dp</dimen>
+    <dimen name="header_imagen">60dp</dimen>
+    <dimen name="header_textsizeUsuario">18sp</dimen>
+    <dimen name="marginBottomImagenPerfil">12dp</dimen>
+    <dimen name="marginRightIconSeccion">10dp</dimen>
+
+    <!--LOISTA DE PEDIDOS -->
+    <dimen name="widthItemLsPeidos">240dp</dimen>
+    <dimen name="windthLinearTexto">260dp</dimen>
+    <dimen name="textsizeTituloPlato">14sp</dimen>
+
+
+    <!-- LISTA DE PEDIDOS-->
+  <dimen name="textsizeTitulo">15sp</dimen>
+
+
+    <dimen name="chart_size">250dp</dimen>
+    <dimen name="stroke_size">18dp</dimen>
+</resources>

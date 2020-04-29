@@ -1,0 +1,11 @@
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/colosfondoSplash"/>
+
+    <item>
+        <bitmap
+            android:src="@drawable/lodideli"
+            android:gravity="center_vertical" />
+    </item>
+</layer-list>

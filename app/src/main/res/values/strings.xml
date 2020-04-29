@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DeliPollo</string>
+    <string name="select_title">SELECCIONA</string>
+
+    <string-array name="select_factura">
+        <item>RUC</item>
+        <item>DNI</item>
+    </string-array>
+    <string name="dni">DNI</string>
+
+
+
+    <string-array name="select_genero">
+        <item>Femenino</item>
+        <item>Masculino</item>
+
+    </string-array>
+
+    <string name="facebook_app_id">314495509491961</string>
+    <string name="fb_text_login">Iniciar sesion con facebook</string>
+
+
+
+
+
+
+
+</resources>
